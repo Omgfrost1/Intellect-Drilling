@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intellect Drilling</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+<div class="header__top-inner">
+  <div class="header__top-inner-scroll">
+    <div class="container">
+        <div class="header__top">
+          <a class="header__logo" href="#">     
+            <svg class="header__icon" width="259" height="60">
+              <use xlink:href="images/sprite.svg#main-logo"></use>
+            </svg>
+          </a>
+          <div class="header__menu-inner">
+          <nav class="header__menu">
+            <button class="header__menu-btn" onclick="showMenu()">
+              <img class="header__menu-img" width="30" src="images/header/menu-btn.svg" alt="меню">
+            </button>
+            <ul class="header__menu-list" onclick="showMenu()">
+              <li class="header__menu-item header__menu-item-btn">
+                <button class="header__closed-btn">
+                  <img class="header__closed-img" width="24" height="18" src="images/header/close-btn.svg"
+                    alt="закрыть">
+                </button>
+              </li>
+              <li class="header__menu-item header__menu-item-tel">
+                <a class="header__tel-menu" href="tel:8 (800) 123-45-67">
+                  8 (800) 123-45-67
+                </a>
+              </li>
+              <li class="header__menu-item header__menu-item-button">
+                <a class="header__left-btn white__btn" href="#">
+                  Войти
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">
+                  О портале
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">
+                  Типы бурения
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">
+                  Заказать скважину
+                </a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">
+                  Контакты
+                </a>
+              </li>
+          </nav>
+          </div>
+          <a class="header__tel" href="tel:8 (800) 123-45-67">
+            8 (800) 123-45-67
+          </a>
+          <a class="header__top-button white__btn" href="#">
+            Войти
+          </a>
+        </div>
+        </div>
+      </div>
+  </header>
+   <main>
+
+    <section class="portal">
+      <div class="container">
+        <div class="portal__content">
+          <h5 class="portal__subtitle">
+            Портал
+          </h5>
+          <h1 class="portal__title">
+            Intellect Drilling
+          </h1>
+          <p class="portal__text">
+            Оставьте заявку на бурение скважины и получите выгодные предложения
+          </p>
+          <a class="portal__content-button btn" href="#">
+            Заказать скважину
+          </a>
+          <a class="portal__content-arrow" href="#works">
+            <svg class="portal__arrow" width="22" height="13" viewBox="0 0 22 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 1L11 11L1 1" stroke="white" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </a>
+          <div class="portal__slider">
+            <div class="portal__slider-item">
+              <p class="portal__slider-text text">
+                Индивидуальная система водоснабжения – одна из важнейших составляющих комфортного проживания в частном
+                загородном доме
+              </p>
+              <p class="portal__slider-numbers">
+                <span class="portal__left-number">1</span>
+                /5
+              </p>
+            </div>
+            <div class=portal__slider-item">
+              <p class="portal__slider-text text">
+                Индивидуальная система водоснабжения – одна из важнейших составляющих комфортного проживания в частном
+                загородном доме
+              </p>
+              <p class="portal__slider-numbers">
+                <span class="portal__left-number">2</span>
+                /5
+              </p>
+            </div>
+            <div class="portal__slider-item">
+              <p class="portal__slider-text text">
+                Индивидуальная система водоснабжения – одна из важнейших составляющих комфортного проживания в частном
+                загородном доме
+              </p>
+              <p class="portal__slider-numbers">
+                <span class="portal__left-number">3</span>
+                /5
+              </p>
+            </div>
+            <div class="portal__slider-item">
+              <p class="portal__slider-text text">
+                Индивидуальная система водоснабжения – одна из важнейших составляющих комфортного проживания в частном
+                загородном доме
+              </p>
+              <p class="portal__slider-numbers">
+                <span class="portal__left-number">4</span>
+                /5
+              </p>
+            </div>
+            <div class="portal__slider-item">
+              <p class="portal__slider-text text">
+                Индивидуальная система водоснабжения – одна из важнейших составляющих комфортного проживания в частном
+                загородном доме
+              </p>
+              <p class="portal__slider-numbers">
+                <span class="portal__left-number">5</span>
+                /5
+              </p>
+            </div>
+          </div>
+          <video class="portal__video" autoplay muted loop>
+            <source
+              src="https://media.istockphoto.com/videos/4k-resolution-christmas-background-defocused-gold-colored-particles-video-id1172143282"
+              type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section> 
+
+    <section class="works" id="works">
+      <div class="container">
+        <div class="works__inner">
+          <h3 class="works__title black__title">
+            Как мы работаем
+          </h3>
+          <div class="works__items">
+            <div class="works__item works__application">
+              <h5 class="works__item-title">
+                Оставляете заявку
+              </h5>
+              <p class="works__text">
+                Вы оставляете бесплатную заявку на бурение и обустройство скважины в Вашем населенном пункте
+              </p>
+            </div>
+            <div class="works__item works__offer">
+              <h5 class="works__item-title">
+                Получаете предложения
+              </h5>
+              <p class="works__text">
+                Буровые компании делают Вам предложения с указанием цен, а также сроков гарантии на все необходимые
+                работы
+              </p>
+            </div>
+            <div class="works__item works__choise">
+              <h5 class="works__item-title">
+                Выбираете лучшее
+              </h5>
+              <p class="works__text">
+                На основе цен и рейтинга выбираете компанию, которая осуществит все необходимые работы на высоком
+                уровне
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefit">
+      <div class="container">
+        <div class="benefit__inner">
+          <div class="benefit__top">
+            <div class="benefit__image">
+              <img class="benefit__img" src="/images/benefit/benefit-content.jpg" alt="img">
+            </div>
+            <div class="benefit__top-content">
+              <h6 class="benefit__top-title">
+                Почему с нами выгодно?
+              </h6>
+              <p class="benefit__top-text">
+                Каждый исполнитель нацелен получить ваш заказ и будет предлагать минимально возможную цену за
+                водоснабжение на вашем участке
+              </p>
+              <a class="benefit__btn btn" data-fancybox data-src="#benefit__registration" href="#">
+                Оформить заказ
+              </a>
+            </div>
+            <div class="benefit__registration" id="benefit__registration">
+              <div class="benefit__registration-middle">
+                <h5 class="benefit__reg-title">
+                  Оформление заявки
+                </h5>
+                <div class="form__box benefit__reg-box">
+                  <input class="benefit__input benefit__name benefit__reg-input" type="text" name="name"
+                    placeholder="Имя">
+                  <input class="benefit__input benefit__tel benefit__reg-input" type="tel" name="tel"
+                    placeholder="Телефон">
+                  <input class="benefit__input benefit__mail benefit__reg-input" type="email" name="email"
+                    placeholder="E-mail">
+                </div>
+              </div>
+              <button class="btn benefit__btn benefit__reg-btn" type="submit">
+                Отправить заявку
+              </button>
+            </div>
+          </div>
+          <div class="benefit__bottom">
+            <div class="benefit__item">
+              <div class="benefit__item-section">
+                <h1 class="benefit__item-title">
+                  123
+                </h1>
+                <p class="benefit__item-text">
+                  готовы выполнить ваш заказ
+                </p>
+              </div>
+              <h4 class="benefit__item-subtitle">
+                компании
+              </h4>
+            </div>
+            <div class="benefit__item">
+              <div class="benefit__item-section">
+                <h1 class="benefit__item-title">
+                  4732
+                </h1>
+                <p class="benefit__item-text">
+                  успешно выполнены через наш портал
+                </p>
+              </div>
+              <h4 class="benefit__item-subtitle">
+                заказов
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dignity">
+      <div class="container">
+        <div class="dignity__inner">
+          <div class="dignity__content">
+            <p class="dignity__content-text">
+              Как только Вы оставите заявку на бурение скважины на воду через портал, Вам начнут поступать ценовые
+              предложения от буровых компаний.
+            </p>
+            <div class="dignity__list">
+              <p class="dignity__list-item">
+                Самые низкие цены на бурение
+              </p>
+              <p class="dignity__list-item">
+                Проверенные буровые компании
+              </p>
+              <p class="dignity__list-item">
+                Любые типы скважин на воду
+              </p>
+            </div>
+          </div>
+          <div class="dignity__images">
+            <img class="dignity__img-1" width="366" src="images/dignity/image-1.jpg" alt="бурение-29000">
+            <img class="dignity__img-2" width="366" src="images/dignity/image-2.jpg" alt="бурение-29000">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="form__registration">
+        <div class="form__registration-top">
+          <h4 class="form__top-title">
+            Оформление заявки
+          </h4>
+          <input class="form__input form__region" type="text" name="region" placeholder="Воронежская область">
+          <input class="form__input form__adress" type="text" name="adress" placeholder="д. Васильево, ул. Степная, 14">
+        </div>
+        <div class="form__registration-middle">
+          <h5 class="form__middle-title">
+            Оформление заявки
+          </h5>
+          <div class="form__box">
+            <input class="form__input form__name" type="text" name="name" placeholder="Константин">
+            <input class="form__input form__tel" type="tel" name="tel" placeholder="Телефон">
+            <input class="form__input form__mail" type="email" name="email" placeholder="E-mail">
+          </div>
+          <textarea class="form__textarea" type="text" name="text" placeholder="Комментарий"></textarea>
+        </div>
+        <div class="form__registration-bottom">
+          <label class="form__label">
+            <input class="form__checkbox" type="checkbox">
+            <span class="form__checkstyle"></span>
+            <p class="form__bottom-text">
+              Вы даете согласие на обработку персональных данных и соглашаетесь с нашей
+              <a class="form__politics" href="#">
+                Политикой конфидециальности
+              </a>
+            </p>
+          </label>
+          <div class="form__buttons">
+            <button class="form__btn form__white-btn white__btn" type="submit">
+              Данные
+            </button>
+            <button class="form__btn btn" type="submit">
+              Отправить заявку
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="form__sidebar">
+        <img class="form__img" width="570" height="338" src="images/form/form-map.jpg" alt="map">
+        <div class="form__sidebar-content">
+          <div class="form__sidebar-scroll">
+            <div class="form__sidebar-data">
+              <h4 class="form__data-title">
+                Данные
+              </h4>
+              <p class="form__data-text text">
+                Самоизливающиеся скважины и твердость известковых отложений — основные факторы, которые стоит
+                учитывать при бурении в Воронежской области. Известковые отложения в Орехово-Зуевском районе находятся
+                на глубине 65 метров. При этом около реки пробурить артезианскую скважину на воду удастся уже на
+                глубине 20-40 метров.
+              </p>
+            </div>
+            <div class="form__sidebar-depths">
+              <h5 class="form__depths-title">
+                Глубины
+              </h5>
+              <div class="form__depths-item">
+                <span class="form__depths-item-name form__item-name-1">
+                  Песок
+                </span>
+                <span class="form__depths-item-text">
+                  ~20 метров
+                </span>
+              </div>
+              <div class="form__depths-item">
+                <span class="form__depths-item-name form__item-name-2">
+                  Известняк
+                </span>
+                <span class="form__depths-item-text">
+                  ~40 метров
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="form__sidebar-price">
+            <div class="form__price-inner">
+              <h5 class="form__price-title">
+                Цены
+              </h5>
+              <p class="form__price-text">
+                55 000 ₽ – 72 300 ₽
+              </p>
+            </div>
+            <div class="form__price-buttons">
+              <a class="form__price-back" href="#">
+                 <img src="images/form/left-arrow.svg" width="44" height="44" alt="назад">
+              </a>
+              <button class="form__price-check" type="submit">
+                 <img src="images/form/form-check.svg" width="44" height="44" alt="готово">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+
+     <section class="checking">
+      <div class="container">
+        <div class="checking__wrapper">
+          <p class="checking__text">
+            Мы тщательно проверяем и отбираем компании-исполнителей, поэтому мы можем ручаться за каждую компанию
+            лично
+          </p>
+          <div class="checking__items">
+            <div class="checking__item checking__item-1">
+              <img class="checking__img checking__img-1" src="images/checking/image-1.jpg" width="354" alt="картинка-1">
+              <div class="checking__item-content">
+                <h5 class="checking__item-title">
+                  Проверка компании
+                </h5>
+                <p class="checking__item-text text">
+                  Перед регистрацией на сервисе каждый Исполнитель проходит ряд различных проверок. Более того, для
+                  регистрации на портале в качестве Исполнителя, каждый желающий обязан предоставить свидетельство о
+                  регистрации фирмы (либо ИП). Можете быть уверены, что не столкнетесь с так называемым "частником".
+                </p>
+              </div>
+            </div>
+            <div class="checking__item checking__item-2">
+              <img class="checking__img checking__img-2" src="images/checking/image-2.jpg" width="354" alt="картинка-2">
+              <div class="checking__item-content">
+                <h5 class="checking__item-title">
+                  Рейтинг компании
+                </h5>
+                <p class="checking__item-text text">
+                  Каждый Исполнитель по мере выполнения заказов накапливает свой рейтинг, который рассчитывается по
+                  сложному
+                  алгоритму. Рейтинг зависит не только от оценок клиентов, но и от других различных факторов, отражающих
+                  уровень профессионализма буровой компании. Например, даже качество общения менеджера с клиентами может
+                  влиять на рейтинг.
+                </p>
+              </div>
+            </div>
+            <div class="checking__item checking__item-3">
+              <img class="checking__img checking__img-3" src="images/checking/image-3.jpg" width="354" alt="картинка-3">
+              <div class="checking__item-content">
+                <h5 class="checking__item-title">
+                  Реальные отзывы
+                </h5>
+                <p class="checking__item-text text">
+                  После выполнения каждого заказа мы связываемся с клиентом и просим его оценить работу Исполнителя по
+                  шкале
+                  от 1 до 5, а также оставить краткий отзыв о данном Исполнителе. Полученные данные фиксируются, и любой
+                  желающий может увидеть, что понравилось, а что не понравилась Заказчикам в работе той или иной буровой
+                  компании.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="reviews">
+      <div class="container">
+        <h3 class="reviews__title black__title">
+          Отзывы клиентов о портале
+        </h3>
+        <div class="reviews__slider">
+          <div class="reviews__item">
+            <h6 class="reviews__item-title reviews__item-title-1">
+              Сергей Матвиенко
+            </h6>
+            <p class="reviews__item-text text">
+              “Все сделано отлично, бригада очень толковая и знают свое дело, работали даже в дождь. Очень рад, что
+              обратился на портал! Рекомендую!”
+            </p>
+          </div>
+          <div class="reviews__item">
+            <h6 class="reviews__item-title reviews__item-title-2">
+              Ольга Васильева
+            </h6>
+            <p class="reviews__item-text text">
+              “Ребята большие молодцы! Была бы возможность, поставили бы им оценку 10! Всё сделали хорошо, всё
+              объяснили, всегда на связи. Ну просто супер!”
+            </p>
+          </div>
+          <div class="reviews__item">
+            <h6 class="reviews__item-title reviews__item-title-3">
+              Константин К.
+            </h6>
+            <p class="reviews__item-text text">
+              “Высокое качество работ. Ни капли грязи после работ не оставили, все чисто. Видно, что люди
+              профессионалы. Абсолютно все понравилось.”
+            </p>
+          </div>
+          <div class="reviews__item">
+            <h6 class="reviews__item-title reviews__item-title-3">
+              Константин К.
+            </h6>
+            <p class="reviews__item-text text">
+              “Высокое качество работ. Ни капли грязи после работ не оставили, все чисто. Видно, что люди
+              профессионалы. Абсолютно все понравилось.”
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <section class="calculator">
+      <div class="container">
+        <div class="calculator__inner">
+          <h4 class="calculator__title">
+            Воспользуйтесь бесплатным калькулятором
+          </h4>
+          <div class="calculator__content">
+            <p class="calculator__text calculator__text-left">
+              Вы можете узнать примерную стоимость работы с помощью нашего калькулятора. Вы получите данные по стоимости
+              работ, а также получите изменения в стоимости при обустройстве скважины
+            </p>
+            <p class="calculator__text calculator__text-right">
+              Вы можете узнать примерную стоимость работы с помощью нашего калькулятора. Вы получите данные по стоимости
+              работ, а также получите изменения в стоимости при обустройстве скважины
+            </p>
+            <a class="calculator__btn btn" href="#">
+              Рассчитать
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="answers">
+      <div class="answers__container">
+        <h3 class="answers__title black__title">
+          Ответы на частые вопросы
+        </h3>
+        <div class="asnwers__content">
+          <div class="answers__top-item">
+            <p class="answers__top-title">
+              Заказать бурение через портал можно только по Московской области?
+            </p>
+            <p class="answers__text text">
+              Не только. На портале зарегистрированы Исполнители, которые, помимо Московской, работают также и в таких
+              областях, как Тверская, Калужская, Ярославская, Тульская и др. При этом, учитывайте, что если Ваш
+              населённый пункт находится слишком далеко от Москвы, то, возможно, Вам не поступит никаких предложений,
+              или же цены за бурение 1 метра источника будут немного выше обычных.
+            </p>
+          </div>
+          <ul class="answers__items">
+            <li class="answers__item answers__item-1 answers__only">
+              <p class="answers__item-title">
+                У вас можно заказать артезианские или песчаные скважины?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+            <li class="answers__item answers__item-2 answers__only">
+              <p class="answers__item-title">
+                На портале возможно заказать промышленную или коллективную скважину на несколько домов?У вас можно
+                заказать артезианские или песчаные скважины?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+            <li class="answers__item answers__item-3 answers__only">
+              <p class="answers__item-title">
+                Необходимо ли получать лицензию или разрешительные документы на скважину?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+            <li class="answers__item answers__item-4 answers__only">
+              <p class="answers__item-title">
+                Можно ли получить рассрочку на бурение или кредит?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+            <li class="answers__item answers__item-5 answers__only">
+              <p class="answers__item-title">
+                Осуществляют ли компании бурение скважины малогабаритной установкой?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+            <li class="answers__item answers__item-6 answers__only">
+              <p class="answers__item-title">
+                Возможно ли заказать "зимнее" обустройство скважины?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+            <li class="answers__item answers__item-last answers__only">
+              <p class="answers__item-title">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+              <p class="answers__item-text text">
+                На портале можно заказать только бурение скважины, или же необходимо заказывать работы под ключ?
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+<!--
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo-item">
+          <a class="footer__logo logo" href="#">
+            <svg class="footer__icon icon" width="371" height="86">
+              <use xlink:href="images/sprite.svg#main-logo"></use>
+            </svg>
+          </a>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item footer__portal">
+            <a class="footer__link" href="#">
+              О портале
+            </a>
+          </li>
+          <li class="footer__item footer__types">
+            <a class="footer__link" href="#">
+              Типы бурения
+            </a>
+          </li>
+          <li class="footer__item footer__order">
+            <a class="footer__link" href="#">
+              Заказать скважину
+            </a>
+          </li>
+          <li class="footer__item footer__contact">
+            <a class="footer__link" href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__contacts">
+          <li class="footer__contacts-item footer__phone">
+            <a class="footer__contacts-link" href="tel:8 (800) 123-45-67">
+              8 (800) 123-45-67
+            </a>
+          </li>
+          <li class="footer__contacts-item footer__mail">
+            <a class="footer__contacts-link" href="mailto:mail@idrilling.ru">
+              mail@idrilling.ru
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copy">
+        <p class="footer__copy-text">
+          Intellect Drilling © 2019. Все права защищены
+        </p>
+      </div>
+    </div>
+  </footer>-->
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

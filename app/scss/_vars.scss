@@ -1,0 +1,28 @@
+$primary: #45a6c6;
+$secondary: #15313b;
+$black: #030710;
+$light: #f5f5f5;
+$gray: #f3f3f3;
+$gradient: linear-gradient(150.64deg, #45a6c6 0%, #a7e4f9 100%);
+$white: #fff;
+
+
+%montserrat-400{
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%montserrat-500{
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%montserrat-600{
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-weight: 600;
+}
+
+%montserrat-700{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+}

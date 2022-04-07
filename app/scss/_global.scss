@@ -1,0 +1,58 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: $black;
+  font-size: 18px;
+  line-height: 1.2;
+  @extend %montserrat-600;
+}
+.main{
+  flex-grow: 1;
+}
+
+.container{
+  max-width: 1660px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.btn{
+  background-color: $primary;
+  border-radius: 5px;
+  @extend %montserrat-700;
+  color: $white;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+   &:hover {
+     transform: scale(105%);
+   }
+}
+.white__btn{
+  text-transform: uppercase;
+    border: 2px solid $white;
+    border-radius: 5px;
+    font-size: 14px;
+    @extend %montserrat-700;
+    transition: all 0.5s;
+    color: $white;
+  cursor: pointer;
+     &:hover {
+     background-color: $primary;
+   }
+}
+.black__title{
+  font-size: 48px;
+  @extend %montserrat-700;
+  text-align: center;
+}
+.text{
+  font-size: 14px;
+  line-height: 1.4;
+  @extend %montserrat-400;
+}
